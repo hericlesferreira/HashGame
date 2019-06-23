@@ -31,11 +31,11 @@ function inicializarEspacos() {
       if(this.getElementsByTagName("img").length == 0) {
 
         if (playTime == player1) {
-          this.innerHTML = "<img class='img-jogo' src='x.png'>";
+          this.innerHTML = "<img class='img-jogo' src='x.svg'>";
           this.setAttribute("jogada", player1);
           playTime = player2;
         } else {
-          this.innerHTML = "<img class='img-jogo' src='o.png'>";
+          this.innerHTML = "<img class='img-jogo' src='o.svg'>";
           this.setAttribute("jogada", player2);
           playTime = player1;
         }
