@@ -1,0 +1,17 @@
+body{
+  background-color: #f0eeee;
+}
+/*
+#mostrador{
+
+}*/
+
+.espaco{
+  background-color: white;
+  height: 90px;
+}
+
+.img-jogo {
+  width: 100%;
+  height: 100%;
+}
